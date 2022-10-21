@@ -106,6 +106,22 @@ class program
             q_sort(j + 1, high);
         }
 
+        void display()
+        {
+            Console.WriteLine("\n------------------------------");
+            Console.WriteLine(" Sorted array element ");
+            Console.WriteLine("\n------------------------------");
+
+            for (int j = 0; j < n; j++) 
+            {
+                Console.WriteLine(arr[j]);
+
+            }
+            Console.WriteLine("\n Number of Comparisons :" +cmp_count);
+            Console.WriteLine("\n Number of daata movements: "+ mov_count);
+
+        }
+
         
     }
 }
