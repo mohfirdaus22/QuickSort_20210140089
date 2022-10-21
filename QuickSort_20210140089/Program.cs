@@ -50,7 +50,24 @@ class program
             arr[x] = arr[y];
             arr[y] = temp;
         }
+        public void q_sort(int low, int high)
+        {
+            int pivot, i, j;   
+            if (low > high)
+                return;
 
+            //partition the list into two parts:
+            //one containning elements less that or equal to pivot
+            //outher containning elements greather than pivot
+
+            i = low + 1;
+            j = high ;
+
+            pivot = arr[low];
+
+           
+        }
+        
     }
 }
 
