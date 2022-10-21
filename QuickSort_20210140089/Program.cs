@@ -28,7 +28,10 @@ class program
                 else
                     Console.WriteLine("\n Array can have maximum 20 elements \n");
             }
-            
+            Console.WriteLine("\n===============================");
+            Console.WriteLine("Enter Array Elements");
+            Console.WriteLine("\n===============================");
+
         }
     }
 }
