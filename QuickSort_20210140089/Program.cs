@@ -125,9 +125,22 @@ class program
         {
             return n;
         }
-
-
         
+        static void Main(string[]args)
+        {
+            //Declaring the object of the class
+            program myList = new program();
+            //Accept array element
+            myList.input();
+            //Calling the sortir function
+            //frist call to quick sort algoritma
+            myList.q_sort(0, myList.getSize() -1 );
+            //Display sorted array
+            myList.display();
+            // to exit from the console
+            Console.WriteLine("\n\nPress Enter To Exit");
+            Console.Read();
+        }
     }
 }
 
