@@ -15,6 +15,15 @@ class program
 
         //Numbers of elements in array
         private int n;
+
+        void input()
+        {
+            while (true)
+            {
+                Console.Write("Enter the number of element in the array : ");
+
+            }
+        }
     }
 }
 
