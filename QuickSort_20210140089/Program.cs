@@ -121,6 +121,11 @@ class program
             Console.WriteLine("\n Number of daata movements: "+ mov_count);
 
         }
+        int getSize()
+        {
+            return n;
+        }
+
 
         
     }
